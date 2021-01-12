@@ -1,0 +1,160 @@
+<!doctype html>
+<html lang="en">
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
+
+    <title>Bootstrap</title>
+
+    <style type="text/css">
+
+      body {
+
+        position: relative;
+      }
+      
+      .jumbotron {
+
+          background-image: url(background.png);
+          color: white;
+          text-align: center;
+          
+          padding-top: 120px;
+      }
+
+      #email {
+
+        width: 300px;
+      }
+
+      #input-p {
+
+        text-align: left;
+      }
+
+      #appSummaryContainer {
+
+        text-align: center;
+        margin-bottom: 50px;
+      }
+
+      #appSummary {
+
+        text-align: center;
+        margin-top: 50px;
+        margin-bottom: 50px;
+      }
+
+      #footer {
+
+        background-color: aqua;
+        padding-top: 50px;
+        padding-bottom: 20px;
+        text-align: center;
+      }
+
+    </style>
+  </head>
+
+  <body data-spy="scroll" data-target="#navbar">
+
+    <div class="navbar navbar-expand-lg navbar navbar-light bg-light fixed-top" id="navbar">
+     <a class="navbar-brand" href="#">My App</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+       <span class="navbar-toggler-icon"></span>
+     </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="#jumbotron">Home<span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#about">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#footer">Download The App</a>
+      </ul>
+      <form class="form-inline my-2 my-lg-0">
+        <input class="form-control mr-sm-2" type="email" placeholder="Email">
+        <input class="form-control mr-sm-2" type="password" placeholder="Password">
+        <button class="btn btn-outline-success" type="submit">Login</button>
+      </form>
+    </div>
+  </div>
+
+  <div class="jumbotron" id="jumbotron">
+    <h1 class="display-4">My Email Marketing App!</h1>
+    <p class="lead">This App can sent HTML email and plain text email both and the email list takes from excel sheet. Hope you will enjoy this app. We provide Exe and open source both file in this Download App link bellow. Thank You.</p>
+    <hr class="my-4">
+    <p id="input-p">It uses Java GUI tecnology and builded by Iktakhairul. Please Sign up with email.</p>
+
+    <form class="form-inline">
+      <label class="sr-only" for="email">Email address</label>
+      <div class="input-group mb-2 mr-sm-2">
+       <div class="input-group-prepend">
+          <div class="input-group-text">@</div>
+        </div>
+       <input type="email" class="form-control" id="email" placeholder="Your email">
+      </div>
+      <button type="submit" class="btn btn-primary mb-2">Sign up</button>
+    </form>
+  </div>
+
+  <div class="container" id="about">
+    
+    <div id="appSummaryContainer">
+
+      <div id="appSummary">
+        <h1>Why This app is awsome</h1>
+        <p class="lead">Summary, once again, of your app's awsomeness</p>
+      </div>
+      <div class="card-deck">
+        <div class="card">
+          <img class="card-img-top" src="email0.png" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title"><i class="fa fa-envelope" aria-hidden="true"></i> Email title</h5>
+            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            <p class="card-text"><small class="text-muted">Last updated 9 days ago</small></p>
+          </div>
+        </div>
+        <div class="card">
+          <img class="card-img-top" src="email1.jpg" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title"><i class="fa fa-commenting" aria-hidden="true"></i> Notification</h5>
+            <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+            <p class="card-text"><small class="text-muted">Last updated 18 days ago</small></p>
+          </div>
+        </div>
+        <div class="card">
+          <img class="card-img-top" src="email2.jpg" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title"><i class="fa fa-html5" aria-hidden="true"></i> HTML Template</h5>
+            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+            <p class="card-text"><small class="text-muted">Last updated 16 days ago</small></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="footer">
+      
+      <h2>Download the app!</h2>
+      <p class="lead">To Download app sources click gitHub icon</p>
+      <p><a href="https://github.com/iktakhairul/Bulk-Mail-Sender-HTML-from-Excel-File-Java-Netbeans-GUI-Sqlite-Complete-PROJECT"><img src="github.png" style="width: 250px;"></a></p>
+
+  </div>
+
+   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+
+
+  </body>
+</html>
